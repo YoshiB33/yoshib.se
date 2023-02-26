@@ -16,9 +16,9 @@ function MobileNav({open, setOpen}) {
                 <Link className="my-4 text-xl font-medium text-white" href="/" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
                     Home
                 </Link>
-                <a className="my-4 text-xl font-normal text-white" href="/projects" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
+                <Link className="my-4 text-xl font-normal text-white" href="/projects" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
                     Projects
-                </a>
+                </Link>
                 <Link className="my-4 text-xl font-normal text-white" href="/privacy-policy" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
                     Privacy policy
                 </Link>

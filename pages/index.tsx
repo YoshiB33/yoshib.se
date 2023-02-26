@@ -8,7 +8,7 @@ export default function Home() {
       </Head>
       <div className="h-screen">
         <h1 className="text-4xl text-center py-7">Hi,</h1>
-        <p>I'm YoshiB33. I like to code, play video games and climb.</p>
+        <p>I&apos;m YoshiB33. I like to code, play video games and climb.</p>
       </div>
     </>
   )
